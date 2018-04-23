@@ -29,7 +29,7 @@ var target = [
 
 let nn = NeuralNetwork(input: 2, hidden: 12, output: 1)
 
-for _ in 1...15000{
+for _ in 1...8000{
 
     let randomRow = Int.random(min: 1, max: 4)
     nn.train(inputArray: input[randomRow]! , targetArray: target[randomRow]! )

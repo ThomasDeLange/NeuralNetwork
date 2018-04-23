@@ -9,10 +9,8 @@
 /* Begin PBXBuildFile section */
 		E9819D45204FEE2800F4CAC5 /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9819D44204FEE2800F4CAC5 /* Matrix.swift */; };
 		E9819D47204FEE3100F4CAC5 /* NeuralNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9819D46204FEE3100F4CAC5 /* NeuralNetwork.swift */; };
-		E9819D4920501F7A00F4CAC5 /* Perceptron.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9819D4820501F7A00F4CAC5 /* Perceptron.swift */; };
 		E9819D4D20502A3800F4CAC5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9819D4C20502A3800F4CAC5 /* Extensions.swift */; };
 		E9819D512050465300F4CAC5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9819D3D204FEE1C00F4CAC5 /* main.swift */; };
-		E9819D662050477C00F4CAC5 /* PerceptronMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9819D652050477C00F4CAC5 /* PerceptronMain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,9 +30,7 @@
 		E9819D3D204FEE1C00F4CAC5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		E9819D44204FEE2800F4CAC5 /* Matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matrix.swift; sourceTree = "<group>"; };
 		E9819D46204FEE3100F4CAC5 /* NeuralNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuralNetwork.swift; sourceTree = "<group>"; };
-		E9819D4820501F7A00F4CAC5 /* Perceptron.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Perceptron.swift; sourceTree = "<group>"; };
 		E9819D4C20502A3800F4CAC5 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		E9819D652050477C00F4CAC5 /* PerceptronMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerceptronMain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,19 +66,9 @@
 				E9819D3D204FEE1C00F4CAC5 /* main.swift */,
 				E9819D44204FEE2800F4CAC5 /* Matrix.swift */,
 				E9819D46204FEE3100F4CAC5 /* NeuralNetwork.swift */,
-				E9819D68205047A000F4CAC5 /* Perceptron */,
 				E9819D4C20502A3800F4CAC5 /* Extensions.swift */,
 			);
 			path = NeuralNetwork;
-			sourceTree = "<group>";
-		};
-		E9819D68205047A000F4CAC5 /* Perceptron */ = {
-			isa = PBXGroup;
-			children = (
-				E9819D4820501F7A00F4CAC5 /* Perceptron.swift */,
-				E9819D652050477C00F4CAC5 /* PerceptronMain.swift */,
-			);
-			path = Perceptron;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,11 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9819D662050477C00F4CAC5 /* PerceptronMain.swift in Sources */,
 				E9819D512050465300F4CAC5 /* main.swift in Sources */,
 				E9819D4D20502A3800F4CAC5 /* Extensions.swift in Sources */,
 				E9819D45204FEE2800F4CAC5 /* Matrix.swift in Sources */,
-				E9819D4920501F7A00F4CAC5 /* Perceptron.swift in Sources */,
 				E9819D47204FEE3100F4CAC5 /* NeuralNetwork.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

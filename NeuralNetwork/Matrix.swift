@@ -83,20 +83,6 @@ public class Matrix {
             }else{
                 Swift.print("Add: Rows and collumns must match")
             }
-//        }else if let n = n as? Int{
-//
-//            for i in 0..<rows {
-//                for j in 0..<cols{
-//                    self[i, j] += Double(n)
-//                }
-//            }
-//        }else if let n = n as? Double{
-//
-//            for i in 0..<rows {
-//                for j in 0..<cols{
-//                    self[i, j] += n
-//                }
-//            }
         }
     }
     
@@ -120,6 +106,7 @@ public class Matrix {
             }
         }
     }
+    
     //Matrix wise funtions
     static func dotProduct(a : Matrix, b : Matrix) -> Matrix{
         
@@ -147,8 +134,7 @@ public class Matrix {
         return result
     }
     
-    //Map funtion
-    
+    //Map funtions
     func map(function : (_ : Double) -> Double){
         for i in 0..<rows {
             for j in 0..<cols{
