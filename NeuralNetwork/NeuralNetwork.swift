@@ -148,5 +148,4 @@ public class NeuralNetwork
         //Adjust the bias weight
         self.hiddenBias.add(n: hiddenGradient)
     }
-    
 }
